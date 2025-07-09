@@ -1,0 +1,33 @@
+
+
+UNDER ">TOOLS>"
+
+THIS SKETCH USED WITH THESE SETTINGS:
+
+Board: ESP32 Wrover Module
+Upload Speed: 115200
+Flash Frequency: 80MHz
+Flash Mode: QIO
+Partition Scheme: Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+Core Debug Level: None
+Port:
+Programmer: Arduino as ISP
+
+
+NOTE:  USED WITH "WROVER" MODULE BOARD SETTING  !!!!
+             NOT "AI Thinker ESP32-CAM" BOARD SETTING  !!!
+
+"config.frame_size"    CAN BE FOUND IN   camera.ino  sub-sketch to adjust camera display image size in browser.
+
+Additional camera settings and the values accepted can also be found in the  camera.ino  sub-sketch.
+
+#include <ESPmDNS.h> //Required to compile on Russian 'ArduinoDroid' IDE but not required on Arduino IDE
+
+
+
+
+
+
+
+
+
